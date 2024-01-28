@@ -10,7 +10,9 @@ const HeroSection = () => {
     <section className='flex gap-3 justify-center text-2xl'>
     <p>x: {x}</p> 
     <p>y: {y}</p> 
-    </section>
+        </section>
+       
+        <a className="text-center px-3 py-2 bg-light text-dark rounded-md max-w-fit mx-auto hover:bg-gray-200" href="https://www.npmjs.com/package/use-mouse-location" target="_blank">View NPM Package</a>
       </>
   )
 }
